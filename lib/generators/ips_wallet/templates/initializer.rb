@@ -1,4 +1,5 @@
 IpsWallet.setup do |config|
+ #config.logger =  "logger file" # default logger is log/ips_wallet.log
  if Rails.env.production?
     config.environment       = :production
     config.merchant_id       = 'YOUR IPS WALLET MERCHANT ID'
